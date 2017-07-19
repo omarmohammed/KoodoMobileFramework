@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: sample.Firefox_Test
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.718 sec <<< FAILURE!
+beforeClass(sample.Firefox_Test)  Time elapsed: 0.543 sec  <<< FAILURE!
+java.lang.IllegalStateException: Specified firefox binary location does not exist or is not a real file: C:\Users\x201640\AppData\Local\Mozilla Firefox\firefox.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:444)
+	at org.openqa.selenium.firefox.internal.Executable.<init>(Executable.java:46)
+	at org.openqa.selenium.firefox.FirefoxBinary.<init>(FirefoxBinary.java:138)
+	at sample.Firefox_Test.beforeClass(Firefox_Test.java:26)
+

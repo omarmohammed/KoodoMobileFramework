@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16353" started-at="2017-07-18T21:06:45Z" finished-at="2017-07-18T21:07:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16353" started-at="2017-07-18T21:06:45Z" finished-at="2017-07-18T21:07:01Z">
+      <class name="login.TC0001_loginwithInavlidCredentials">
+        <test-method status="PASS" signature="report()[pri:0, instance:login.TC0001_loginwithInavlidCredentials@343f4d3d]" name="report" is-config="true" duration-ms="234" started-at="2017-07-18T17:06:45Z" finished-at="2017-07-18T17:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:login.TC0001_loginwithInavlidCredentials@343f4d3d]" name="setup" is-config="true" duration-ms="13731" started-at="2017-07-18T17:06:45Z" finished-at="2017-07-18T17:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLoginWithInvalidCredentials()[pri:0, instance:login.TC0001_loginwithInavlidCredentials@343f4d3d]" name="verifyLoginWithInvalidCredentials" duration-ms="1786" started-at="2017-07-18T17:06:59Z" finished-at="2017-07-18T17:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:login.TC0001_loginwithInavlidCredentials@343f4d3d]" name="endTest" is-config="true" duration-ms="594" started-at="2017-07-18T17:07:01Z" finished-at="2017-07-18T17:07:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- login.TC0001_loginwithInavlidCredentials -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

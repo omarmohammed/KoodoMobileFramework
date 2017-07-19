@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [sample.Firefox_Test]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="sample.Firefox_Test">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="f"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- sample.Firefox_Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [sample.Firefox_Test] -->

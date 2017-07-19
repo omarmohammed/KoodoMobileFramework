@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteLogin]">
+  <test name="TestLogin(failed)">
+    <classes>
+      <class name="login.TC0001_loginwithInavlidCredentials">
+        <methods>
+          <include name="report"/>
+          <include name="verifyLoginWithInvalidCredentials"/>
+          <include name="setup"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- login.TC0001_loginwithInavlidCredentials -->
+      <class name="login.TC0003_verifyalllinksonloginpage">
+        <methods>
+          <include name="verifyalllinksonloginpage"/>
+          <include name="endTest"/>
+          <include name="setup"/>
+          <include name="report"/>
+        </methods>
+      </class> <!-- login.TC0003_verifyalllinksonloginpage -->
+    </classes>
+  </test> <!-- TestLogin(failed) -->
+</suite> <!-- Failed suite [SuiteLogin] -->
